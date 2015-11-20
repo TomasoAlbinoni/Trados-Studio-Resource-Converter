@@ -1,0 +1,1 @@
+# Trados-Studio-Resource-Converter
