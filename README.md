@@ -8,3 +8,4 @@ log4j:log4j:jar:1.2.7
 junit:junit:jar:4.11
 org.hamcrest:hamcrest-core:jar:1.3
 David Crawshaw's Java JDBC driver for SQLite
+
