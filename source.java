@@ -345,7 +345,7 @@ public class SDLConverter extends JPanel implements ActionListener {
 			Matcher startTagMatcher;
 			Pattern endTagPattern = Pattern.compile("<Tag><Type>End</Type><Anchor>(\\d+)</Anchor><AlignmentAnchor>\\d+</AlignmentAnchor>(<TagID>.*?</TagID>)?</Tag>");
 			Matcher endTagMatcher;
-			Pattern placeholderPattern = Pattern.compile("<Tag><Type>.*?</Type><Anchor>\\d+</Anchor><AlignmentAnchor>(\\d+)</AlignmentAnchor><TagID>(.*?)</TagID>.*?</Tag>");
+			Pattern placeholderPattern = Pattern.compile("<Tag><Type>.*?</Type><Anchor>\\d+</Anchor><AlignmentAnchor>(\\d+)</AlignmentAnchor><TagID>(.*?)</TagID>.*?</Tag>", Pattern.DOTALL);
 			Matcher placeholderMatcher;
 			
 			String sourceSegment, targetSegment, tu, srcLang;
